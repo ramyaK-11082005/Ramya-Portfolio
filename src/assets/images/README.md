@@ -1,0 +1,1 @@
+Drop your profile photo here as `profile.jpg`. The Hero component currently uses initials "RK". Replace the initials block in `src/components/Hero.jsx` with `<img src={profileImg} alt="Ramya K"/>` after importing.
