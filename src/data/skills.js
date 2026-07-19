@@ -1,11 +1,12 @@
 import {
   FaPython, FaJava, FaJsSquare, FaReact, FaHtml5, FaCss3Alt,
-  FaBootstrap, FaGitAlt, FaGithub, FaDatabase, FaPaintBrush, FaMicrosoft
+  FaBootstrap, FaGitAlt, FaGithub, FaDatabase, FaPaintBrush, FaMicrosoft,FaNodeJs 
 } from 'react-icons/fa'
 import {
   SiCplusplus, SiJquery, SiDjango, SiMysql,
-  SiCanva
+  SiCanva,SiMongodb,SiExpress ,
 } from 'react-icons/si'
+
 import { MdLeaderboard, MdOutlineChat, MdPsychology } from 'react-icons/md'
 
 export const skills = {
@@ -22,16 +23,21 @@ export const skills = {
     { name: "jQuery", icon: SiJquery, color: "#0769AD" },
   ],
   "Backend": [
-    { name: "Django", icon: SiDjango, color: "#092E20" },
-    { name: "Python", icon: FaPython, color: "#3776AB" },
+    
+    { name: "Node.js", icon: FaNodeJs , color: "#02aa34" },
+    { name: "Express.js", icon: SiExpress , color: "#3776AB" },
+    { name: "Django", icon: SiDjango, color: "#035a39" },
+
   ],
   "Database": [
     { name: "MySQL", icon: SiMysql, color: "#4479A1" },
     { name: "MS SQL Server", icon: FaMicrosoft, color: "#CC2927" },
+    { name: "MongoDB", icon: SiMongodb , color: "#27cc3d" },
+
   ],
   "Tools": [
     { name: "Git", icon: FaGitAlt, color: "#F05032" },
-    { name: "GitHub", icon: FaGithub, color: "#181717" },
+    { name: "GitHub", icon: FaGithub, color: "#383737" },
     { name: "Canva", icon: SiCanva, color: "#00C4CC" },
     { name: "Photoshop", icon: FaPaintBrush, color: "#31A8FF" },
     { name: "MS Office", icon: FaDatabase, color: "#D83B01" },
